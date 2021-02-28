@@ -1,0 +1,47 @@
+.video{
+    max-height: 85vh;
+    overflow: hidden;
+    padding-top: 90px;
+    
+}
+.video__wrapper{
+    position: relative;
+}
+.video__play{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.video__content{
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    z-index: 5;
+    
+    
+
+}
+.video__content h1{
+    color: rgba(255, 255, 255,0.8);
+    font-size: 3.2em;
+}
+@media(max-width:1250px){
+    .video__content h1{
+        
+        font-size: 2.5em;
+    }
+}
+@media(max-width:767px){
+    .video{
+        padding-top: 55px;
+    }
+    .video__content{
+        top: 70px;
+    }
+    .video__content h1{
+        
+        font-size: 1.2em;
+    }
+}

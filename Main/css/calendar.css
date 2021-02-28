@@ -1,0 +1,154 @@
+.calendar{
+    padding-top: 90px;
+}
+.calendar__headline{
+    padding: 0 25px;
+}
+.calendar__headline h2{
+    font-weight: 700;
+    font-size: 3em;
+    margin: 0;
+}
+.filters{
+    margin-top: 20px;
+    padding: 0 10px;
+}
+.filters__link{
+    padding: 6px 15px;
+    background-color: rgb(253, 205, 190);
+    border-radius: 60%;
+    margin: 0 15px;
+    font-weight: 550;
+    transition: 0.4s all;
+}
+.filters__link:hover{
+    background-color:rgb(230, 95, 71);
+    color: white;
+}
+.active_link{
+    background-color:rgb(230, 95, 71);
+    color: white;
+}
+
+.calendar__catalog{
+    padding-top: 15px;
+    
+}
+.calendar__row{
+    display: flex;
+    justify-content: center;
+}
+.calendar__item{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.calendar__item:after { 
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    opacity: 0;
+    transition: all .3s;
+    
+ }
+
+/*.calendar__item:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+     background: url(img/calendar/summer/1.jpeg);
+    opacity: 0;
+    
+         }*/
+
+/*.calendar__item:hover:before,*/
+.calendar__item:hover:after { 
+    opacity: 1;
+    
+ }
+
+ .calendar__link{
+     width: 100%;
+     height: auto;
+ }
+.calendar__img{
+    width: 100%;
+    height: auto;
+    transition: all .3s;
+
+}
+
+.calendar__item:hover .calendar__img{
+    transform: scale(1.05);
+
+}
+.calendar__info, .calendar__status{
+    
+    position: absolute;
+    display: block;
+    z-index: 3;
+}
+.calendar__status{
+    top: 40px;
+    border-radius: 0 30px 30px 0;
+    font-weight: 700;
+    font-size: 0.8em;
+    color: rgb(255, 255, 255);
+    width: 80px;
+    text-align: center;
+    padding: 8px 15px;
+   /* background-color: #05c8aa;*/
+}
+.calendar__info{
+    width: 100%;
+    padding: 20px 30px;
+    text-align: center;
+    bottom: 20px;
+    color:rgba(255, 255, 255,.9);
+    font-size: 2em;
+    font-weight: 700;
+    text-shadow: black 0 0 2px;
+}
+@media(max-width:1250px){
+    .calendar__status{
+        top: 25px;
+        padding: 5px 10px;
+    }
+    .calendar__info{
+        font-size: 1.2em;
+        padding: 12px 20px;
+        bottom: 10px;
+    }
+}
+
+@media(max-width:767px){
+    .filters__link{
+        display: block;
+        border-radius: 5%;
+        width: 15vw;
+        text-align: center;
+        margin: 10px auto;
+        padding: 7px 18px;
+        font-size: 1.2em;
+    }
+    .calendar__row{
+        display: block;
+    }
+    .calendar__status{
+        top: 30px;
+        padding: 6px 15px;
+    }
+    .calendar__info{
+        font-size: 1.7em;
+        bottom: 15px;
+    }
+}
+
+

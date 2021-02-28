@@ -1,0 +1,50 @@
+<div class="calendar__catalog">
+<div class="calendar__row">
+    <div class="calendar__item">
+        <a href="" class="calendar__link">
+            <span class="calendar__status">22</span>
+            <img src="img/calendar/summer/1.jpeg" alt="" class="calendar__img">
+            <span class="calendar__info">11fsgfsgfgfsgfs</span>
+        </a>                                           
+    </div>
+    <div class="calendar__item">
+        <a href="" class="calendar__link">
+            <span class="calendar__status">22</span>
+            <img src="img/calendar/summer/2.jpeg" alt="" class="calendar__img">
+            <span class="calendar__info">11</span>
+            
+        </a>
+    </div>
+    <div class="calendar__item">
+        <a href="" class="calendar__link">
+            <span class="calendar__status">22</span>
+            <img src="img/calendar/summer/1.jpeg" alt="" class="calendar__img">  
+            <span class="calendar__info">11</span>                   
+        </a>
+    </div>
+</div>
+<div class="calendar__row">
+    <div class="calendar__item">
+        <a href="" class="calendar__link">
+            <span class="calendar__status">22</span>
+            <img src="img/calendar/summer/1.jpeg" alt="" class="calendar__img">
+            <span class="calendar__info">11fsgfsgfgfsgfs</span>
+        </a>                                           
+    </div>
+    <div class="calendar__item">
+        <a href="" class="calendar__link">
+            <span class="calendar__status">22</span>
+            <img src="img/calendar/summer/2.jpeg" alt="" class="calendar__img">
+            <span class="calendar__info">11</span>
+            
+        </a>
+    </div>
+    <div class="calendar__item">
+        <a href="" class="calendar__link">
+            <span class="calendar__status">22</span>
+            <img src="img/calendar/summer/1.jpeg" alt="" class="calendar__img">  
+            <span class="calendar__info">11</span>                   
+        </a>
+    </div>
+</div>
+</div>
