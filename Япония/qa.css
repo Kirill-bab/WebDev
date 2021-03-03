@@ -1,0 +1,104 @@
+.function{
+    padding-top: 90px;
+}
+
+
+.rating-area {
+	overflow: hidden;
+	width: 265px;
+	margin: 0 auto;
+}
+
+.rating-area:not(:checked) > input {
+	display: none;
+}
+
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+
+.rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+
+.pressed-button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 10px;/*отступ от текста*/
+  margin: 10px 10px;/*отступ от левого и правого края */
+  border-radius: 30px;/*закругление рамки*/
+    width: 400px; /*длина и ширина рамки*/
+    height: 50px;
+  background-image: linear-gradient(45deg, #6ab1d7 0%, #33d9de 50%, #002878 100%);/*кнопка цвет*/
+  /*background-position: 0% 0%;    Что это, блядь, такое, нихера не меняется*/
+  background-size: 100% 100%;/*если поменять на 20 проц, то будет тигр. задний фон кнопки уменьшает или увеличивает */
+  font-family: sans-serif;/*шрифт текста*/
+  font-size: 28px;
+  font-weight: 100;/*насыщенность текста*/
+  color: white; /*цвет текста на кнопке*/
+  box-shadow: 0 16px 32px 0 rgba(0, 40, 120, .35);
+  transition: .5s;
+}
+.pressed-button:hover {
+  box-shadow: 0 0 0 0 rgba(0, 40, 120, 0);
+  background-position: 0 0;
+}
+
+.background_photo_1{
+    position: static;
+    width: 100%;
+    
+}
+
+.text_on_img_1{
+    position: absolute;
+  left: 40px;
+  text-align: left;
+    padding-top: 140px;
+    color: azure;
+}
+
+.img_small{
+     width: 50px;
+    height: 50px;
+    display: inline-block;
+  padding: 10px 10px;
+  margin: 10px 10px;
+}
+
+.col_container {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+}
+
+.col {
+    display: table-cell; /* Make elements inside the container behave like table cells */
+}
+
+.container {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
