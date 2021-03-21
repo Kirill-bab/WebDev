@@ -1,0 +1,52 @@
+.section-headline {
+    margin-bottom: 0;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.container-fluid {
+    padding: 0 30px;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.impressions-section {
+    padding-top: 70px;
+}
+
+
+.thumb img  {
+    border: 0px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 0px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+    margin-right: -5px; /* Отступ справа */
+    margin-bottom: -86px; /* Отступ снизу */
+   }
+
+ div > img {
+  width: 25%;
+}
+
+
+.text-img {
+    width: 24.8215%;
+    
+    z-index: 1;
+    text-align: center;
+    padding: 0 24px 24px;
+    
+    font-size: 25px;
+
+    display: inline-block;
+    color:white;
+    font-weight:bold;
+    text-shadow: 0 0 10px #010401;
+}
+
+
