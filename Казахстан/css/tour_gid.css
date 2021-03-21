@@ -1,0 +1,55 @@
+.tourgid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.tourgid_cont {
+    width: 50%;
+    background-color: white;
+}
+
+.tourgid_cont h5 {
+    margin-left: 5%;
+    margin-top: 3%;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.experience {
+    padding: 0;
+    font-family: "Lucida Sans";
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.experience li {
+    padding: 10px;
+}
+
+.polaroid {
+    position: relative;
+    width: 100%;
+}
+
+.polaroid img {
+    width: 100%;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    border: 10px solid #fff;
+    border-bottom: 60px solid #fff;
+    -webkit-box-shadow: 3px 3px 3px #777;
+    -moz-box-shadow: 3px 3px 3px #777;
+    box-shadow: 3px 3px 3px #777;
+}
+
+.polaroid p {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 0px;
+    font: 400 18px/1 'Kaushan Script', cursive;
+    color: #323C42;
+}

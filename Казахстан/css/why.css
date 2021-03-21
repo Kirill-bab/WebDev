@@ -1,0 +1,50 @@
+#why {
+    margin-bottom: 40px;
+}
+
+.why_row {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+    padding: 0;
+    border-bottom: 10px solid #fff;
+    border-top: 10px solid #fff;
+}
+
+
+/* Create four equal columns that sits next to each other */
+
+.why_column {
+    -ms-flex: 33.3%;
+    /* IE10 */
+    flex: 33.3%;
+    max-width: 33.3%;
+    padding: 0 0px;
+    background: #A0A0A0;
+    border-left: 10px solid #fff;
+    border-right: 10px solid #fff;
+}
+
+.why_column div {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.why_column p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.why_column p::first-line {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
