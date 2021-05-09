@@ -1,0 +1,98 @@
+*{  
+    margin: 0;
+    padding: 0;
+}
+
+.google-map{
+    width:100%;
+    height:700px;
+    
+}
+.section-headline {
+    margin-bottom: 0;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.container-fluid {
+    padding: 0 30px;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.impressions-block {
+  width: 100%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.impressions-img {
+    flex: 1 0 25%;
+    min-width: 475px;
+    max-width: 100%;
+    height: 600px;
+    
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+}
+
+.impressions-text {
+    margin: 480px 5% 10% 5%;
+    text-align: center;
+    font-size: 30px;
+    display:block;
+    color:white;
+    font-weight:bold;
+    text-shadow: 0 0 10px #010401;
+}
+
+.google-map{
+    width:100%;
+    height:700px;
+    
+}
+
+
+@media screen and (max-width: 1440px){
+    .google-map{
+        width:100%;
+        height:600px;
+    }
+    
+}
+
+@media screen and (max-width: 1024px){
+    .google-map{
+        width:100%;
+        height:550px;
+    }
+    .section-headline {
+        font-size: 35px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .google-map{
+        width:100%;
+        height:500px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .google-map{
+        width:100%;
+        height:450px;
+    }
+    
+}
