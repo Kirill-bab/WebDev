@@ -1,0 +1,81 @@
+.btn-close {
+  color: #e60023;
+  font-size: 30px;
+  text-decoration: none;
+  padding:10px;
+  position: absolute;
+  right: 7px;
+  top: 0;
+}
+.btn-close:hover {
+  color: #333;
+}
+.modal:before {
+  content: "";
+  display: none;
+  background: #ebc692cf;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+}
+.opened:before {
+  display: block;
+}
+.opened .modal-dialog {
+  transform: translate(0, 0);
+  top: 15%;
+}
+.modal-dialog {
+  background: #fefefe;
+  border: #333333 solid 0px;
+  border-radius: 5px;
+  margin-left: -200px;
+  text-align:center;
+  position: fixed;
+  left: 50%;
+  top: -100%;
+  z-index: 11;
+  width: 450px;
+  box-shadow:0 5px 10px rgba(0,0,0,0.3);
+  transform: translate(0, -500%);
+  transition: transform 0.3s ease-out;
+}
+.modal-body {
+  padding: 20px;
+}
+.modal-body input{
+  width:200px;
+  padding:8px;
+  border:1px solid #ddd;
+  color:#888;
+  outline:0;
+  font-size:14px;
+  font-weight:bold;
+  margin-top: 10px;
+}
+.modal-header,
+.modal-footer {
+  padding: 10px 20px;
+}
+.modal-header {
+  border-bottom: #eeeeee solid 1px;
+}
+.modal-header h2 {
+  font-size: 20px;
+}
+.modal form.decor {
+    margin: 0;
+}
+.modal form .form-inner {
+    padding: 20px;
+}
+
+.modal form .form-control input{
+    width: 100%;
+}
+.modal form button{
+    margin-left: 55px;
+}
